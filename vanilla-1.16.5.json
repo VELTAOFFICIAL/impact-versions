@@ -1,0 +1,23 @@
+{
+  "id": "1.16.5",
+  "type": "vanilla",
+  "mainClass": "net.minecraft.client.main.Main",
+  "inheritsFrom": "1.16.5",
+  "version": "1.16.5",
+  "minecraftVersion": "1.16.5",
+
+  "libraries": [
+    {
+      "name": "net.java.jinput:jinput:2.0.9"
+    }
+  ],
+
+  "assetIndex": "1.16",
+  "assets": "1.16",
+
+  "javaArgs": [
+    "-Xmx2G",
+    "-Xms1G",
+    "-XX:+UseG1GC"
+  ]
+}
